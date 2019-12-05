@@ -1,0 +1,118 @@
+
+    .parallax-container{
+      /*background: url(img/background1.png);
+      background-size: cover;
+      background-position: center;*/
+      min-height: 750px;
+    }
+
+    .parallax-container {
+      height: 100vh;
+      width: 100%;
+	}
+	.nav-wrapper {
+	position: absolute;
+	top: 0%;
+	bottom: 100%;
+	z-index: 1;
+	width: 100%;
+	}
+	.nav-wrapper img {
+	  height: 4rem;
+	 /* float: left;*/
+	}
+	.material-icons{
+		color: blue !important;
+	}
+	.caption {
+	  width: 100%;
+	  max-width: 100%;
+	  position: absolute;
+	  top: 20%;
+	  z-index: 1;
+	  text-align: center;
+	  font-size: 2.5rem;
+	}
+	.slider .slides li img {
+	
+	background-size: cover;
+	background-position: bottom !important;
+	}
+
+	#websiteimg {
+		background-position: center !important;
+	}
+
+	.lead {
+	margin-top: 64px;
+	}
+
+	.navlink {
+	color: #0000cd;
+	font-weight: bold;
+	}
+
+	.lights{
+		background-image: url(img/lightoff.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 40rem;
+    }
+
+    .lights:hover{
+	  background-image: url(img/lighton.jpg);
+	  transition-duration: 0.8s;
+	  /*transition-timing-function: ease-in-out;*/
+	}
+
+	.heading-underline {
+	  width: 10rem;
+	  height: .2rem;
+	  background-color: #26a69a;;
+	  margin: 0 auto 2rem;
+	}
+
+	.service {
+		display: inline-block !important;
+	}
+
+	#success-msg {
+		font-size: 1.2rem;
+		background-color: grey;
+	}
+
+	.section{
+	      padding-top: 1vw;
+	      padding-bottom: 8vw;
+	 }
+    @media screen and (max-width: 670px){
+      .parallax-container{
+        min-height: 500px;
+        background-position: center;
+        }
+
+	    .section{
+	      padding-top: 4vw;
+	      padding-bottom: 4vw;
+	    }
+	    .tabs .indicator{
+	      background-color: #1a237e;
+	    }
+	    .tabs .tab a:focus, .tabs .tab a:focus.active{
+	      background: transparent;
+	    }
+	    .caption {
+		  width: 100%;
+		  max-width: 100%;
+		  position: absolute;
+		  top: 10%;
+		  z-index: 1;
+		  text-align: center;
+		  font-size: 2.5rem;
+		}
+	  }
+    @media screen and (max-width: 1024px){
+	    	.lead {
+		margin-top: 5px;
+		}
+    }
